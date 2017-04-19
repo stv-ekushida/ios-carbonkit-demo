@@ -11,13 +11,13 @@ pod 'CarbonKit'
 
 ## 2. importする
 
-```swift:
+```swift:ViewController.swift
 import CarbonKit
 ```
 
 ### 3. 使い方
 
-```swift:
+```swift:ViewController.swift
     let carbonTabSwipeNavigation = CarbonTabSwipeNavigation(items: items,
                                                             delegate: self)
     carbonTabSwipeNavigation.insert(intoRootViewController: self)
@@ -35,7 +35,7 @@ import CarbonKit
 ナビゲーションをカスタマイズしたいときは、下記のメソッドを利用する
 なお、toolBarとView（targetView)は、Storyboardで定義すること
 
-```swift:
+```swift:ViewController.swift
     let CarbonTabSwipeNavigation(items: items, toolBar: toolbar, delegate: self)
     carbonTabSwipeNavigation.insertIntoRootViewController(self, andTargetView: targetView)
 ```
