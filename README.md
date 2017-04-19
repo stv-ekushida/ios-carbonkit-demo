@@ -24,14 +24,19 @@ import CarbonKit
     let carbonTabSwipeNavigation = CarbonTabSwipeNavigation(items: items,
                                                             delegate: self)
     carbonTabSwipeNavigation.insert(intoRootViewController: self)
+    
+    //初期表示するタブの番号
+    carbonTabSwipeNavigation.currentTabIndex = 0
 
-    carbonTabSwipeNavigation.setIndicatorColor(UIColor.blue)
-    carbonTabSwipeNavigation.currentTabIndex = 0
-
-    carbonTabSwipeNavigation.setNormalColor(UIColor.black,
+    //選択されていないタブの文字サイズとカラー
+    carbonTabSwipeNavigation.setNormalColor(UIColor.black,
                                             font: UIFont.boldSystemFont(ofSize: 14))
+                                            
+    //選択されていいるタブの文字サイズとカラー                                        
     carbonTabSwipeNavigation.setSelectedColor(UIColor.blue,
                                               font: UIFont.boldSystemFont(ofSize: 14))
+    //選択されているタブのインジケーターのカラー 
+    carbonTabSwipeNavigation.setIndicatorColor(UIColor.blue)
 ```
 
 # その他
