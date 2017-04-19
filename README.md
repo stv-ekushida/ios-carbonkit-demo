@@ -32,7 +32,7 @@ import CarbonKit
 ```
 
 # その他
-ナビゲーションをカスタマイズしたいときは、下記のメソッドを利用する
+ナビゲーションをカスタマイズしたいときは、下記のメソッドを利用する。<br>
 なお、toolBarとView（targetView)は、Storyboardで定義すること
 
 ```swift:ViewController.swift
