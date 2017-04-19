@@ -1,6 +1,9 @@
 # ios-carbonkit-demo
 iOS CarbonKitを利用したサンプル
 
+<img width="147" alt="2017-04-20 7 10 32" src="https://cloud.githubusercontent.com/assets/9479568/25204497/b0e251d8-2598-11e7-9f75-faf5f167b315.png">
+
+
 # 使い方
 
 ## 1. PodFileを設定する
