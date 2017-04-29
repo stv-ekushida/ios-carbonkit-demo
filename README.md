@@ -41,7 +41,7 @@ import CarbonKit
 
 # その他
 ナビゲーションをカスタマイズしたいときは、下記のメソッドを利用する。<br>
-なお、toolBarとView（targetView)は、Storyboardで定義すること
+なお、toolBarとView（targetView)は、親ViewのStoryboardで定義すること
 
 ```swift:ViewController.swift
     let CarbonTabSwipeNavigation(items: items, toolBar: toolbar, delegate: self)
